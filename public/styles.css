@@ -1,0 +1,45 @@
+/* Basic styling for the login and chat pages */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat-container {
+    display: flex;
+}
+
+.friends-list {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.chat-window {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+#messages {
+    border: 1px solid #ccc;
+    height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
