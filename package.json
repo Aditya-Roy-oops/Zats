@@ -1,0 +1,20 @@
+{
+  "name": "zats-chat-app",
+  "version": "1.0.0",
+  "description": "Zats - A real-time ephemeral messaging web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security", 
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "",
+  "license": "ISC"
+}
